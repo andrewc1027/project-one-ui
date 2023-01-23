@@ -24,3 +24,6 @@ yarn-error.log*
 debug.log
 package-lock.json
 newrelic_agent.log
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
