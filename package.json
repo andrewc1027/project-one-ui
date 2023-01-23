@@ -7,9 +7,9 @@
     "node": "14.18.3"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node api.js && node server/server.js",
     "start:dev": "react-scripts start cross-env NODE_ENV=development",
-    "build": "react-scripts build && compress-cra",
+    "build": "node api.js && react-scripts build && compress-cra",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
